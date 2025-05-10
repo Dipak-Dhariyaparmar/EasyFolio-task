@@ -14,7 +14,6 @@ import { useState } from "react";
 const MotionBox = motion(Box);
 const MotionCard = motion(Card.Root);
 
-// Sample data
 const projects = [
   {
     id: 1,
@@ -84,7 +83,6 @@ const Portfolio = () => {
 
   return (
     <Box px={{ base: 4, md: 8 }} py={8} maxW="1200px" mx="auto">
-      {/* Header */}
       <Heading as="h1" size="4xl" textAlign="center" mb={4}>
         Portfolio
       </Heading>
@@ -97,13 +95,11 @@ const Portfolio = () => {
         borderRadius="full"
       />
 
-      {/* Description */}
       <Text fontSize="xl" color="gray.600" textAlign="center" mb={8}>
         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
         quam nihil molestiae consequatur vel illum qui dolorem
       </Text>
 
-      {/* Tabs */}
       <Flex justifyContent="center" mb={6} gap={4} flexWrap="wrap">
         {buttonName.map((name, index) => (
           <Button
@@ -123,7 +119,6 @@ const Portfolio = () => {
         ))}
       </Flex>
 
-      {/* Animated Grid */}
       <Grid
         templateColumns={{
           base: "repeat(1, 1fr)",
