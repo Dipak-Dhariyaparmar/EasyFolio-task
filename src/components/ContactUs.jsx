@@ -18,7 +18,7 @@ function ContactUs() {
       py={{ base: 6, md: 10 }}
       px={{ base: "5%", sm: "10%", md: "15%" }}
     >
-      {/* Left Section */}
+     
       <Box flex={1}>
         <Text
           fontSize={{ base: "xs", md: "sm" }}
@@ -43,7 +43,6 @@ function ContactUs() {
           suscipit laboriosam.
         </Text>
 
-        {/* Contact Details */}
         <Box mt={{ base: 4, md: 6 }}>
           <Flex align="center" mb={2}>
             <Icon as={MdEmail} color="orange.500" size={"lg"} mr={2} />
@@ -74,25 +73,24 @@ function ContactUs() {
         </Box>
       </Box>
 
-      {/* Right Section */}
       <Box
         flex={1}
         bg="white"
         p={{ base: 4, md: 6 }}
         borderRadius="md"
         shadow="md"
-        display="flex" // Ensure the Box uses flex to control its content
-        flexDirection="column" // Stack content vertically
+        display="flex" 
+        flexDirection="column" 
       >
         <form
           style={{
             display: "flex",
             flexDirection: "column",
-            flex: 1, // Make form take full available space
-            height: "100%", // Ensure form uses full height
+            flex: 1, 
+            height: "100%", 
           }}
         >
-          {/* Name Field */}
+      
           <Input
             placeholder="Your Name"
             size={{ base: "md", md: "lg" }}
@@ -103,7 +101,6 @@ function ContactUs() {
             _focus={{ borderColor: "#e87532" }}
           />
 
-          {/* Email Field */}
           <Input
             placeholder="Your Email"
             size={{ base: "md", md: "lg" }}
@@ -114,7 +111,6 @@ function ContactUs() {
             _focus={{ borderColor: "#e87532" }}
           />
 
-          {/* Subject Field */}
           <Input
             placeholder="Subject"
             size={{ base: "md", md: "lg" }}
@@ -125,7 +121,6 @@ function ContactUs() {
             _focus={{ borderColor: "#e87532" }}
           />
 
-          {/* Message Field */}
           <Textarea
             placeholder="Message"
             size={{ base: "md", md: "lg" }}
@@ -135,10 +130,9 @@ function ContactUs() {
             borderColor="gray.300"
             _focus={{ borderColor: "#e87532" }}
             resize="vertical"
-            flex={1} // Allow Textarea to expand and fill remaining space
+            flex={1} 
           />
 
-          {/* Submit Button */}
           <Button
             type="submit"
             bg={"#e87532"}
