@@ -183,3 +183,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// this is a header component
