@@ -94,3 +94,5 @@ const Education = () => {
 };
 
 export default Education;
+
+// this component is a edcation
