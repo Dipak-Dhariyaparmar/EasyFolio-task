@@ -77,4 +77,4 @@ const FAQ = () => {
 
 export default FAQ;
 
-// this components is a faq related
+// this component is a faq related
