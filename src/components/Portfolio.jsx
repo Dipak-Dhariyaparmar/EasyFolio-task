@@ -171,5 +171,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-// this components is a portfolio related
