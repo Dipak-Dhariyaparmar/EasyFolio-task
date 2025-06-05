@@ -189,4 +189,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-// this component is a testimonial related
