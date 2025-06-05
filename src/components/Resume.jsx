@@ -191,4 +191,3 @@ const Resume = () => {
 };
 
 export default Resume;
-// this component is a resume related
