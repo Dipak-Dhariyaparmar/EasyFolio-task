@@ -152,5 +152,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-// this is a hero section component related
