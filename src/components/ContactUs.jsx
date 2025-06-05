@@ -149,4 +149,3 @@ function ContactUs() {
 }
 
 export default ContactUs;
-// this component is a contactus related
