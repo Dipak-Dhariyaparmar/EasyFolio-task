@@ -94,3 +94,4 @@ function Footer() {
 
 export default Footer;
 
+// This component is a related to Footer
