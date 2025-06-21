@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
-// Motion-enabled Chakra components
 const MotionBox = motion(Box);
 const MotionText = motion(Text);
 const MotionImage = motion(Image);
@@ -44,7 +43,6 @@ const HeroSection = () => {
         maxW="1200px"
         mx="auto"
       >
-        {/* Left Section */}
         <MotionBox
           w={{ base: "100%", md: "50%" }}
           maxW="550px"
@@ -74,7 +72,6 @@ const HeroSection = () => {
               design and innovative development
             </MotionText>
 
-            {/* Buttons */}
             <MotionBox
               variants={fadeInVariant}
               transition={{ delay: 0.2 }}
@@ -102,7 +99,6 @@ const HeroSection = () => {
               </HStack>
             </MotionBox>
 
-            {/* Stats */}
             <MotionBox
               variants={fadeInVariant}
               transition={{ delay: 0.3 }}
@@ -128,7 +124,6 @@ const HeroSection = () => {
           </VStack>
         </MotionBox>
 
-        {/* Right Section */}
         <Spacer />
         <MotionBox
           w={{ base: "100%", md: "50%" }}
@@ -152,4 +147,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-// This component is a related to Herosection
