@@ -2,12 +2,10 @@ import { Box, Heading, Text, Stack ,Timeline} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 
-// Motion components
 const MotionBox = motion(Box);
 const MotionHeading = motion(Heading);
 const MotionText = motion(Text);
 
-// Animation variants
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 0) => ({
@@ -24,7 +22,6 @@ const fadeInUp = {
 const Education = () => {
   return (
     <Box px={{ base: 4, md: 8 }} maxW="1200px" mx="auto">
-      {/* Header */}
       <MotionHeading
         as="h2"
         size="3xl"
@@ -37,7 +34,6 @@ const Education = () => {
         My Education
       </MotionHeading>
 
-      {/* Description */}
       <MotionText
         fontSize="lg"
         color="gray.600"
@@ -94,4 +90,3 @@ const Education = () => {
 };
 
 export default Education;
-// This component is a related to education
