@@ -87,3 +87,5 @@ export const DarkMode = React.forwardRef(function DarkMode(props, ref) {
     />
   )
 })
+
+// This component is a related to color-mode logic
