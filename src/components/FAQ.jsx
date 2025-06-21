@@ -37,7 +37,6 @@ const FAQ = () => {
 
   return (
     <Box px={{ base: 4, md: 8 }} py={8} maxW="1200px" mx="auto">
-      {/* Header */}
       <Heading as="h1" size="4xl" textAlign="center" mb={4}>
         Frequently Asked Questions
       </Heading>
@@ -50,12 +49,10 @@ const FAQ = () => {
         borderRadius="full"
       />
 
-      {/* Description */}
       <Text fontSize="lg" color="gray.600" textAlign="center" mb={8}>
         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem
       </Text>
 
-      {/* Accordion */}
       <Accordion.Root collapsible defaultValue={["1"]} variant="plain">
         {items.map((item, index) => (
           <Accordion.Item key={index} value={item.value} p={4} mb={4} borderRadius="md" boxShadow="md">
@@ -76,4 +73,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-// This component is a related to FAQ
