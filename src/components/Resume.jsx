@@ -1,6 +1,5 @@
 import { Box, Heading, Text, Stack, Timeline } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-// Assuming this is your Timeline source
 
 const MotionBox = motion(Box);
 const MotionHeading = motion(Heading);
@@ -22,7 +21,6 @@ const fadeInUp = {
 const Resume = () => {
   return (
     <Box px={{ base: 4, md: 8 }} py={8} maxW="1400px" mx="auto">
-      {/* Header */}
       <MotionHeading
         as="h1"
         size="4xl"
@@ -49,7 +47,6 @@ const Resume = () => {
         viewport={{ once: true }}
       />
 
-      {/* Description */}
       <MotionBox
         maxW="800px"
         mx="auto"
@@ -64,7 +61,6 @@ const Resume = () => {
         </Text>
       </MotionBox>
 
-      {/* Work Experience Section */}
       <Box px={{ base: 4, md: 8 }} py={8} maxW="1200px" mx="auto">
         <MotionHeading
           as="h2"
@@ -191,4 +187,3 @@ const Resume = () => {
 };
 
 export default Resume;
-// This component is a related to Resume
