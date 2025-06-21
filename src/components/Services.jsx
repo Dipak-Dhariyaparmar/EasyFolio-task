@@ -7,7 +7,6 @@ import { BsBoundingBoxCircles } from "react-icons/bs";
 const Services = () => {
   return (
     <Box px={{ base: 4, md: 8 }} py={8} maxW="1200px" mx="auto">
-      {/* Header */}
       <Heading as="h1" size="4xl" textAlign="center" mb={4}>
         Services
       </Heading>
@@ -20,15 +19,12 @@ const Services = () => {
         borderRadius="full"
       />
 
-      {/* Description */}
       <Text fontSize="xl" color="gray.600"  textAlign="center" mb={8}>
         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
         quam nihil molestiae consequatur vel illum qui dolorem
       </Text>
 
-      {/* Main Content */}
       <Flex direction={{ base: "column", md: "row" }} gap={8}>
-        {/* Left Section */}
         <Box flex={1}>
           <Heading as="h2" size="4xl" mb={4}>
             Consectetur adipiscing elit sed do eiusmod tempor
@@ -51,10 +47,8 @@ const Services = () => {
           </Button>
         </Box>
 
-        {/* Right Section (Grid of Service Cards) */}
         <Box flex={2}>
           <Grid templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }} gap={6}>
-            {/* Service Card 1 */}
             <GridItem>
               <Box
                 p={6}
@@ -74,7 +68,6 @@ const Services = () => {
               </Box>
             </GridItem>
 
-            {/* Service Card 2 */}
             <GridItem>
               <Box
                 p={6}
@@ -94,7 +87,6 @@ const Services = () => {
               </Box>
             </GridItem>
 
-            {/* Service Card 3 */}
             <GridItem>
               <Box
                 p={6}
@@ -114,7 +106,6 @@ const Services = () => {
               </Box>
             </GridItem>
 
-            {/* Service Card 4 */}
             <GridItem>
               <Box
                 p={6}
@@ -141,4 +132,3 @@ const Services = () => {
 };
 
 export default Services;
-// This component is a related to Services
