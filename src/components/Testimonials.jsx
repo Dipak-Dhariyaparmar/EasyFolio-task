@@ -10,10 +10,9 @@ import {
 } from "@chakra-ui/react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 import { useState } from "react";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion"; 
 
 const Testimonials = () => {
-  // Sample testimonials data
   const testimonials = [
     {
       id: 1,
@@ -41,10 +40,8 @@ const Testimonials = () => {
     },
   ];
 
-  // State to manage active testimonial
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Function to navigate testimonials
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
   };
@@ -53,12 +50,10 @@ const Testimonials = () => {
     setActiveIndex((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
   };
 
-  // Get current testimonial
   const currentTestimonial = testimonials[activeIndex];
 
   return (
     <Box px={{ base: 4, md: 8 }} bg={"#faf9fb"} py={8} mx="auto">
-      {/* Header with Scroll Animation */}
       <motion.div
         initial={{ opacity: 0, y: -50 }} // Start with opacity 0 and off-screen
         whileInView={{ opacity: 1, y: 0 }} // Animate to visible and slide into view
@@ -189,4 +184,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-// This component is a related to Testimonials
