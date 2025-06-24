@@ -187,3 +187,4 @@ const Resume = () => {
 };
 
 export default Resume;
+//This component is a related to Resume
