@@ -171,3 +171,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+//This component is a related to Portfolio
