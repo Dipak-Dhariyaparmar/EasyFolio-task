@@ -46,8 +46,8 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <HStack
-            spacing={8} // Increased spacing between links
-            display={{ base: "none", md: "flex" }} // Hidden on small screens, visible on medium and larger
+            spacing={8}
+            display={{ base: "none", md: "flex" }} 
             justify="center"
             flex="1"
           >
