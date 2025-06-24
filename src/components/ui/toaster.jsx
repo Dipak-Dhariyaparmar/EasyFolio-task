@@ -68,5 +68,3 @@ export const Toaster = () => {
     </Portal>
   )
 }
-
-// This component is a related to toaster logic
