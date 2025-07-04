@@ -132,3 +132,4 @@ const Services = () => {
 };
 
 export default Services;
+// This component is a related to Services page
