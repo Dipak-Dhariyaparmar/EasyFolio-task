@@ -75,21 +75,9 @@ function Footer() {
         </Link>
       </Text>
 
-      {/* Scroll Up Button (Floating Action Button) */}
-      {/* <IconButton
-        aria-label="Scroll Up"
-        bg="orange.500"
-        color="white"
-        size="md"
-        position="absolute"
-        top={4}
-        right={4}
-        _hover={{ bg: "orange.600" }}
-      >
-        <IoIosArrowUp />
-      </IconButton> */}
     </Box>
   );
 }
 
 export default Footer;
+// This component is a related to footer page
