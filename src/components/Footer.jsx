@@ -80,4 +80,3 @@ function Footer() {
 }
 
 export default Footer;
-// This component is a related to footer page
