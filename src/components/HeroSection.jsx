@@ -147,4 +147,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-// This component is a related to herosection page
