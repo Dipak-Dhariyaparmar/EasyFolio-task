@@ -10,3 +10,4 @@ export function Provider(props) {
     </ChakraProvider>
   )
 }
+// This componen tis related to provider
