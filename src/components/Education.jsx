@@ -90,4 +90,3 @@ const Education = () => {
 };
 
 export default Education;
-// This component is a related to education page
