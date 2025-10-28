@@ -1,4 +1,4 @@
-//This component is related to education relateds
+//This component is related to education relatedss
 
 import { Box, Heading, Text, Stack ,Timeline} from "@chakra-ui/react";
 import { motion } from "framer-motion";
