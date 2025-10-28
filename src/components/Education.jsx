@@ -1,3 +1,5 @@
+//This component is related to education related
+
 import { Box, Heading, Text, Stack ,Timeline} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
