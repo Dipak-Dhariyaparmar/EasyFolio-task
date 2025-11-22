@@ -1,4 +1,4 @@
-//This component is related to faqs
+//This component is related to faq
 
 import { Accordion, Span,Heading,Button,Text,Box } from "@chakra-ui/react";
 
