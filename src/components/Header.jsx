@@ -1,4 +1,4 @@
-//This component is related to heade
+//This component is related to headers
 
 import React from "react";
 import {
