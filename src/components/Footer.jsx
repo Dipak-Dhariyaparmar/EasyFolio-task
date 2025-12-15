@@ -1,4 +1,4 @@
-//This component is related to footers
+//This component is related to footer
 
 
 import {
