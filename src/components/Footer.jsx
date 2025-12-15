@@ -1,3 +1,6 @@
+//This component is related to footer
+
+
 import {
   Box,
   Text,
